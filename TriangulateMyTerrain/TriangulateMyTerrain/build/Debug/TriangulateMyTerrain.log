@@ -1,0 +1,29 @@
+﻿Build started 01/06/2017 10:01:51.
+     1>Project "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\TriangulateMyTerrain\TriangulateMyTerrain.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\external/include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"build\Debug\\" /Fd"build\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyView.cpp
+         MyView.cpp
+         No target GL version declared, defaulting to GL 3.3
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"build\Debug\TriangulateMyTerrain.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\external\lib\Win32\v120\Debug" scenemodel.lib tygra.lib tgl.lib glfw.lib png.lib zlib.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"build\Debug\TriangulateMyTerrain.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"build\Debug\TriangulateMyTerrain.lib" /MACHINE:X86 build\Debug\Frustum.obj
+         build\Debug\main.obj
+         build\Debug\Mesh.obj
+         build\Debug\MyController.obj
+         build\Debug\MyView.obj
+         TriangulateMyTerrain.vcxproj -> D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\TriangulateMyTerrain\build\Debug\TriangulateMyTerrain.exe
+       PostBuildEvent:
+         xcopy /E /S /I /Y "doc" "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\demo"
+         xcopy /E /S /I /Y "demo" "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\demo"
+         xcopy /Y "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\TriangulateMyTerrain\build\Debug\TriangulateMyTerrain.exe" "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\demo"
+         :VCEnd
+         File not found - doc
+         0 File(s) copied
+         File not found - demo
+         0 File(s) copied
+         D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\TriangulateMyTerrain\build\Debug\TriangulateMyTerrain.exe
+         1 File(s) copied
+     1>Done Building Project "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\TriangulateMyTerrain\TriangulateMyTerrain.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.78

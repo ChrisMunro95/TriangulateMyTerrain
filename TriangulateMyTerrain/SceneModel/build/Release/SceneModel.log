@@ -1,0 +1,32 @@
+﻿Build started 01/06/2017 10:03:26.
+     1>Project "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\SceneModel\SceneModel.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinclude /I"D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\external/include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"build\Release\\" /Fd"lib\Win32\v120\Release\SceneModel.pdb" /Gd /TP /analyze- /errorReport:prompt src\Camera.cpp src\Context.cpp
+         Camera.cpp
+         Context.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"lib\Win32\v120\Release\SceneModel.lib" /NOLOGO build\Release\Camera.obj
+         build\Release\Context.obj
+         Context.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         SceneModel.vcxproj -> D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\SceneModel\lib\Win32\v120\Release\SceneModel.lib
+       PostBuildEvent:
+         xcopy /E /S /I /Y "doc" "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\external\doc"
+         xcopy /E /S /I /Y "include" "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\external\include"
+         xcopy /E /S /I /Y "lib" "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\external\lib"
+         :VCEnd
+         File not found - doc
+         0 File(s) copied
+         include\SceneModel\Array2d.hpp
+         include\SceneModel\Camera.hpp
+         include\SceneModel\Context.hpp
+         3 File(s) copied
+         lib\Win32\v120\Debug\SceneModel.lib
+         lib\Win32\v120\Debug\scenemodel.pdb
+         lib\Win32\v120\Release\SceneModel.lib
+         lib\Win32\v120\Release\scenemodel.pdb
+         4 File(s) copied
+     1>Done Building Project "D:\University Work\Submissions\TriangulateMyTerrain\TriangulateMyTerrain\SceneModel\SceneModel.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25
